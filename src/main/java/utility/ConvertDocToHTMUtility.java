@@ -20,7 +20,7 @@ public class ConvertDocToHTMUtility {
 		String sourcefile = reportFolderPath + reportName;
 		File file = new File(sourcefile);
 
-		// Loading word Document generation XWPFDocument Object
+		// Loading word Document generating XWPFDocument Object
 		InputStream inStream = new FileInputStream(file);
 		XWPFDocument document = new XWPFDocument(inStream);
 
